@@ -180,6 +180,22 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.598705501618123,
+      "y": 0.36027713625866054,
+      "uniqueID": "id-56",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -187,6 +203,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6",
       "ap2ID": "id-20"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-10",
+      "ap2ID": "id-56"
     },
     {
       "ap2Name": "geometry",
@@ -212,6 +233,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-39",
       "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-45",
+      "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-56",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
