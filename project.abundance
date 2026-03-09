@@ -94,7 +94,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 30
+          "ioValue": 10
         },
         {
           "name": "zDist",
@@ -111,7 +111,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 30,
+          "currentEquation": "30"
         }
       ]
     },
@@ -171,7 +172,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
