@@ -77,6 +77,31 @@
           "currentEquation": "20"
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5895361380798274,
+      "y": 0.3233256351039261,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 30
+        },
+        {
+          "name": "zDist",
+          "ioValue": 20,
+          "currentEquation": "20"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -89,6 +114,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-10",
       "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-14",
+      "ap2ID": "id-20"
     }
   ],
   "unitsKey": "MM",
