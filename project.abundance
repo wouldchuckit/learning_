@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.3295577130528587,
-      "y": 0.44110854503464203,
+      "x": 0.1963322545846818,
+      "y": 0.39260969976905313,
       "uniqueID": "id-6",
       "ioValues": [
         {
@@ -31,6 +31,22 @@
         },
         {
           "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.41801510248112195,
+      "y": 0.3833718244803695,
+      "uniqueID": "id-10",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
           "ioValue": 10
         }
       ]
